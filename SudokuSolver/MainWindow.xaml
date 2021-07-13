@@ -1,0 +1,22 @@
+﻿<Window x:Class="SudokuSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SudokuSolver"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <WrapPanel Name="Sudoku" Height="540" Width="540" Margin="10,10,230,10"/>
+        <Button x:Name="btnSolve" FontSize="24" Content="Oplossen" HorizontalAlignment="Left" Margin="620,241,0,0" VerticalAlignment="Top" Width="113" Click="btnSolve_Click" Height="56"/>
+        <Border Margin="10 10 590 370" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="190 10 410 370" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="370 10 230 370" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="10 190 590 190" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="190 190 410 190" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="370 190 230 190" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="10 370 590 10" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="190 370 410 10" BorderBrush="Black" BorderThickness="3"/>
+        <Border Margin="370 370 230 10" BorderBrush="Black" BorderThickness="3"/>
+    </Grid>
+</Window>
